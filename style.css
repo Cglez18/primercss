@@ -1,0 +1,21 @@
+body {
+    background: white;
+}
+
+.cat_title {
+    color: green;
+}
+
+.cat_link {
+    color: purple;
+    text-decoration: underline;
+}
+
+.cat_description{
+    color: red;
+}
+
+
+#cat_image {
+    width: 500px;
+}
