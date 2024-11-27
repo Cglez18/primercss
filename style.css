@@ -1,5 +1,6 @@
 body {
     background: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 .cat_title {
@@ -18,6 +19,22 @@ body {
 
 #cat_image {
     width: 500px;
+}
+.herencia {
+    color: blue; /* Este color será heredado por los elementos hijos */
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px dashed blue;
+}
+
+#texto-especifico {
+    color: orange; /* Sobrescribe el color heredado  */
+    font-size: 20px; /* Cambia el tamaño del texto solo para este elemento */
+    font-weight: bold;
+    border: 2px solid orange;
+    margin-top: 10px;
+    padding: 10px;
 }
 h1{
     text-align: center;
